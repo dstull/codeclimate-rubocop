@@ -11,7 +11,7 @@ gem "rubocop-performance", require: false
 gem "rubocop-migrations", require: false
 gem "rubocop-rspec", require: false
 gem "rubocop-rails", require: false
-gem 'gitlab-styles', '~> 3.1.0', require: false
+gem 'gitlab-styles', '~> 3.4.0', require: false
 gem "safe_yaml"
 
 group :test do
