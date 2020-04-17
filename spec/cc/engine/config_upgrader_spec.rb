@@ -15,6 +15,8 @@ module CC::Engine
       create_source_file(".rubocop.yml", <<~CONFIG)
         Style/AccessorMethodName:
           Enabled: false
+        Style/ExponentialNotation:
+          Enabled: true
         Style/FrozenStringLiteralComment:
           Enabled: false
         Style/HashEachMethods:
@@ -22,6 +24,8 @@ module CC::Engine
         Style/HashTransformKeys:
           Enabled: true
         Style/HashTransformValues:
+          Enabled: true
+        Layout/SpaceAroundMethodCallOperator:
           Enabled: true
         Lint/RaiseException:
           Enabled: false
